@@ -1,5 +1,5 @@
-param subscriptionId string = '05ddf88a-5bc5-4b68-be30-4be7bd310885'
-param workspaceResourceId string = '/subscriptions/05ddf88a-5bc5-4b68-be30-4be7bd310885/resourcegroups/gm-loganalytics/providers/microsoft.operationalinsights/workspaces/gm-loganalytics'
+param subscriptionId string = '<subscriptionId>'
+param workspaceResourceId string = '<la-resourceId>'
 param location string = resourceGroup().location
 
 targetScope = 'resourceGroup'
