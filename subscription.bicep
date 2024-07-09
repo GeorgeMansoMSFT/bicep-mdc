@@ -1,8 +1,8 @@
-param securityEmailAddress string = 'test@gvmsec.com'
-param continuousExportResourceGroupName string = 'gm-testce'
-param sqlLogAnalyticsWorkspaceResourceId string = '/subscriptions/05ddf88a-5bc5-4b68-be30-4be7bd310885/resourceGroups/GM-LogAnalytics/providers/Microsoft.OperationalInsights/workspaces/GM-LogAnalytics'
+param securityEmailAddress string = '<emailaddress>'
+param continuousExportResourceGroupName string = '<ce-resourcegroup>'
+param sqlLogAnalyticsWorkspaceResourceId string = '<la-resourceId>'
 param sqlLogAnalyticsWorkspaceRegion string = 'centralus'
-param sqlLogAnalyticsWorkspaceId string = '647b8b35-e71e-41d4-89cc-21979a3d163e'
+param sqlLogAnalyticsWorkspaceId string = '<la-shortId>'
 
 targetScope = 'subscription'
 
